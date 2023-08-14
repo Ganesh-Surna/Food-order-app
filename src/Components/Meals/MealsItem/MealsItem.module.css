@@ -1,0 +1,23 @@
+.meal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+}
+.description{
+    font-style: italic;
+    color:rgb(92, 88, 88);
+}
+.price{
+    color: rgb(218, 99, 3);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}

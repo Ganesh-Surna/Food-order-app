@@ -1,0 +1,61 @@
+
+.total{
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem;
+}
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+}
+.total-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+    /*margin-right: 1rem;*/
+}
+.btn-group1{
+    margin-top: 0.5rem;
+    align-self: flex-end;
+    display: flex;
+    gap:0.5rem;
+}
+.close-btn{
+    background-color: transparent;
+    padding:0.3rem 1rem;
+    color:rgb(240, 126, 19);
+    font-weight: 500;
+    border:1px solid rgb(240, 126, 19);
+    border-radius: 1rem;
+}
+.close-btn:hover,
+.close-btn:active,
+.close-btn:focus{
+    cursor: pointer;
+    outline: none;
+    background-color:  rgb(226, 75, 16);
+    color: white;
+}
+
+.order-btn{
+    
+    background-color: rgb(230, 143, 63);
+    padding:0.3rem 1rem;
+    color:white;
+    font-weight: 500;
+    border:1px solid rgb(240, 126, 19);
+    border-radius: 1rem;
+}
+
+.order-btn:hover,
+.order-btn:active,
+.order-btn:focus{
+    cursor: pointer;
+    background-color:  rgb(177, 91, 11);
+}

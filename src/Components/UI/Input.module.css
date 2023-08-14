@@ -1,0 +1,21 @@
+.input-group{
+    display: flex;
+    gap:0.6rem;
+    align-items: center;
+}
+.input-group label{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.input-group input{
+    width:3rem;
+    border-radius: 0.6rem;
+    border:1px solid rgb(199, 191, 191);
+    color:black;
+    font:inherit;
+    text-align: center;
+    padding-left: 0.5rem;
+}
+.input-group input:focus{
+    outline: none;
+}
