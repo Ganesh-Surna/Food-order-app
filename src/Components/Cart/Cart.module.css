@@ -1,5 +1,6 @@
 
 .total{
+    /* border-top: 1px solid #ccc; */
     display: flex;
     flex-direction: column;
     padding: 0.1rem;
@@ -58,4 +59,8 @@
 .order-btn:focus{
     cursor: pointer;
     background-color:  rgb(177, 91, 11);
+}
+
+.go-back-actions{
+    text-align: right;
 }

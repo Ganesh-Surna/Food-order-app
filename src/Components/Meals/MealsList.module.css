@@ -4,6 +4,19 @@
     margin: 0;
 }
 
+.section{
+    max-width:90%;
+    width:55rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.error{
+    color:rgb(241, 13, 13);
+    font-size: 1.35rem;
+    font-style: italic;
+}
+
 .meals-list{
     animation: slideUp 1s ease-out;
     max-width:90%;
